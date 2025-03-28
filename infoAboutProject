@@ -1,0 +1,6 @@
+This is a simple ToDo web-app built using the Java Servlet Stack.
+it uses CRUD operations through RESTful APIs."
+
+1] Frontend - Html, css, Vanilla.js
+2] Backend - java
+3] Database - Mysql
