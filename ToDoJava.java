@@ -23,9 +23,9 @@ public class ToDoJava extends HttpServlet {
     private static final Logger logger = Logger.getLogger(ToDoJava.class.getName());
 
     // Database connection info (update as needed)
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/tododb";
-    private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "304312";
+    private static final String DB_URL = "database url here example: jdbc:mysql://localhost:3306/tododb";
+    private static final String DB_USER = "database user name";
+    private static final String DB_PASSWORD = "database password here";
 
     private static class ToDo {
         int id;
