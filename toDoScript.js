@@ -20,7 +20,7 @@ function edittoDo(index) {
     let button = form.children[5];
     head.innerText = "update ToDo";
     input.value = document.getElementById(index).children[0].innerText;
-    textarea.innerText = document.getElementById(index).children[1].innerText;
+    textarea.value = document.getElementById(index).children[1].innerText;
     button.value = `update ${index}`;
 }
 
