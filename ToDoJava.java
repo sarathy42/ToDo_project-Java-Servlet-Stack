@@ -1,3 +1,12 @@
+//execute this sql comment to create the database and table before running this java code
+//CREATE DATABASE tododb;
+//USE tododb;
+//CREATE TABLE todos (
+//    id INT AUTO_INCREMENT,
+//    title VARCHAR(100),
+//    content TEXT,
+//    PRIMARY KEY (id));
+
 package com.example;
 
 import com.google.gson.Gson;
