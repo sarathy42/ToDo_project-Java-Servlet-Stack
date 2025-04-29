@@ -96,8 +96,7 @@ async function updateTask(index) {
     head.innerText = "Add ToDo";
     button.value = "add";
     updateTitleInput.value = "";
-    updateTitleInput.innerText = "";
-    updateContentInput.innerText = "";
+    updateContentInput.value = "";
 }
 
 // Function to delete a task
